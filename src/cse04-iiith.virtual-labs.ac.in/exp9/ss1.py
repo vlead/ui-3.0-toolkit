@@ -1,3 +1,4 @@
+import os.path
 f=open("template1.html",'r')
 template=f.read()
 s=""
@@ -82,14 +83,22 @@ f.seek(t+13)
 f.write(s)
 
 s=""
-with open('index.php?section=Manual', 'r') as f:
+if os.path.isfile('index.php?section=Manual'):
+    f=open('index.php?section=Manual', 'r') 
     content = f.read()
     k=content.index('<div id="experiment-article-section-1-heading" class="heading">')
     t= content.index('</section>')
     f.seek(content.index('<div id="experiment-article-section-1-heading" class="heading">'))
     s= f.read(t-k)
     print s
-    
+elif os.path.isfile('index.php?section=Procedure'):
+    f=open('index.php?section=Procedure', 'r') 
+    content = f.read()
+    k=content.index('<div id="experiment-article-section-1-heading" class="heading">')
+    t= content.index('</section>')
+    f.seek(content.index('<div id="experiment-article-section-1-heading" class="heading">'))
+    s= f.read(t-k)
+    print s
 f=open('manual.html', 'w+')
 f.write(template)
 f.seek(0)
