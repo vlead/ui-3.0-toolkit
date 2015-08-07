@@ -92,7 +92,7 @@ if os.path.isfile('index.php?section=Manual'):
     s= f.read(t-k)
     print s
 elif os.path.isfile('index.php?section=Procedure'):
-    f=open('index.php?section=Procedure', 'r') 
+    f=open('index.php?section=Manual', 'r') 
     content = f.read()
     k=content.index('<div id="experiment-article-section-1-heading" class="heading">')
     t= content.index('</section>')
