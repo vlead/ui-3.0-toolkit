@@ -1,6 +1,7 @@
 Commands for concerting from old UI to new UI
 
 cd src
+
 wget -r -e robots=off http://cse01-iiith.virtual-labs.ac.in/index.php
 cp ss.py cse01-iiith.virtual-labs.ac.in
 cp template.html cse01-iiith.virtual-labs.ac.in
