@@ -20,6 +20,11 @@ p.small {
     font-size: 16px;
 }
 
+.lab-list-col-10
+	 {
+	 	/* background: none !important; */
+	 	overflow:hidden;
+	 }
 a,
 a:hover,
 a:focus,
@@ -62,6 +67,10 @@ a.active {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+}
+.footer-div
+{
+margin-top:120px;
 }
 
 /*******************************************************************************/
@@ -311,11 +320,13 @@ a.active {
 	.footer-div
 	{
 	background-size: cover !important;
+	position:absolute; bottom:0;
 	 }
 	 
 	 .lab-list-col-10
 	 {
 	 	/* background: none !important; */
+	 	overflow:hidden;
 	 }
 	 
 	.featured-labs-main-div
@@ -323,6 +334,7 @@ a.active {
 		margin-top: -35px !important;	
 	}
 }
+
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) { 
  
@@ -500,7 +512,7 @@ a:focus
 	color: #888;
 	font-size: 30px;
 }
-experiment-article-section-1-heading
+#experiment-article-section-1-heading
 {
 color: #888;
 font-size: 30px;

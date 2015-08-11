@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
@@ -22,10 +23,9 @@
 
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
-   
 	
 </head>
-<body id="page-top" class="index" onload=readfile()>
+<body id="page-top" class="index">
 <div id="top">
 	<header>
 	<!-- Navigation -->
@@ -93,32 +93,25 @@
 					
 					<div class="row">
 						<div class="col-md-2 sidebar-col-2">
-							<a href="introduction.html" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px; color: #ff6600;"> Introduction </h3></a>
-							<a href="experiments.html" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;"> List of experiments 	</h3></a>
-							<a href="target_audience.html" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Target Audience </h3></a>
-							<a href="courses_aligned.html" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Courses Aligned </h3></a>
-							<a href="prerequisites.html" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Prerequisite S/W  </h3></a>
-							
-							<a href="feedback.html" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Feedback</h3></a>
+							<a href=" electronics-and-communications-labs.html" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px; color: #ff6600;"> Electronics & Communications</h3></a>
+							<a href="computer-science-and-engineering-labs.html " class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Computer Science & Engineering</h3></a>
+							<a href="electrical-engineering-labs.html" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Electrical Engineering</h3></a>
+							<a href=" mechanical-engineering-labs.html" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Mechanical Engineering</h3></a>
+							<a href="chemical-engineering-labs.html" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Chemical Engineering</h3></a>
+							<a href="biotechnology-and-biochemical-engineering-labs.html" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Biotechnology & Biochemical Engineering</h3></a>
+							<a href="civil-engineering-labs.html" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Civil Engineering</h3></a>
+							<a href="physical-sciences-labs.html" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Physical Sciences</h3></a>
+							<a href="chemical-sciences-labs.html" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;"> Chemical Sciences</h3></a>
 						</div>
 						
-						<div class="col-md-10 lab-list-col-10" style="margin-top: 20px;>
-						<!--edit -->
-<div id="experiment-article-section-1-heading" class="heading">
-		 	Introduction 			</div>
-		<!-- Write the section content inside a paragraph 
-		element, You can also include images with <img> tag -->
-		<div id="experiment-article-section-1-content" class="content">	
-		 	<p> 		Welcome to the Problem Solving Virtual Lab developed at IIIT Hyderabad. The interactive experiments in this lab will give the students an opportunity for learning and better understanding of using computer programming as a tool to solve basic to advanced problems. 	  </p> 			
-		</div>
-
-
-			
+						<div class="col-md-10 lab-list-col-10">
 							
-							</div>
+							<div style="margin-top: 20px; " class="lab-list-row-div">
+								<div class="col-md-5">
+									</div>
+									</div>
 							
-							
-						
+						</div>
 					</div>
 			</div>
 			<!-- =================================================================================================================================== -->
