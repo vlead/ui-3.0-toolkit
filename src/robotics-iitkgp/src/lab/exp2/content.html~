@@ -1,0 +1,218 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Robotics and Control Systems Lab</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+                Slider Crank Mechanism
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-1-heading">
+                        Aim
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-1-content">
+                        <div class="divContent">
+                            <h2 style="color: Red;"><strong style=
+                            "text-decoration: underline"><span style=
+                            "font-family: arial,helvetica,sans-serif; color: rgb(255, 0, 0);">
+                            <span style=
+                            "font-size: large;">Aim</span></span></strong></h2>
+				
+
+                            <p>&nbsp;</p>
+
+                            <p class="MsoNormal" style=
+                            "line-height: 150%; text-align: right;"><a href=
+                            "http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
+                            Back To Experiment List</span></a></p>
+
+                            <p><span style=
+                            "font-size: medium; font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <p align="justify"> 
+    The Slider-crank mechanism is used to transform rotational motion into translational motion by means of a rotating driving beam, a connection rod and a
+    sliding body. In the present example, a flexible body is used for the connection rod. The sliding mass is not allowed to rotate and three revolute joints
+    are used to connect the bodies. While each body has six degrees of freedom in space, the kinematical conditions lead to one degree of freedom for the whole
+    system.</p>    
+    <br>
+	<p align="center">                                                       
+	<img src="exp-images/216px-Example_MBS.jpg" width="216" height="132">
+    </p><br>                       
+ 	<p align="justify">
+ 	A slider crank mechanism converts circular motion of the crank into linear motion of the slider. In order for the crank to rotate fully the condition L&gt; R+E must be
+    satisfied where R is the crank length,L is the length of the link connecting crank and slider and E is the offset of slider. A slider crank is a RRRP type of mechanism i.e.
+    It has three revolute joints and 1 prismatic joint. The total distance covered by the slider between its two extreme positions is called the path length. Kinematic inversion 
+    of slider crank mechanisms produce ordinary a whitework quick return mechanism.
+    </p><br>
+    <p>
+    The motion of the mechanism can be viewed in the following gif animation:</p>
+	<br>
+    <p>
+    <img alt="slider ani" src="exp-images/Slidercrank_animation.gif" width="300" height="168"></p></span></p>
+
+                            
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Theory
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-2-content">
+                        <dd>
+	<ul>
+
+    <p align="justify"> 
+    The Slider-crank mechanism is used to transform rotational motion into translational motion by means of a rotating driving beam, a connection rod and a
+    sliding body. In the present example, a flexible body is used for the connection rod. The sliding mass is not allowed to rotate and three revolute joints
+    are used to connect the bodies. While each body has six degrees of freedom in space, the kinematical conditions lead to one degree of freedom for the whole
+    system.</p>    
+    <br>
+	<p align="center">                                                       
+	<img src="exp-images/216px-Example_MBS.jpg" width="216" height="132">
+    </p><br>                       
+ 	<p align="justify">
+ 	A slider crank mechanism converts circular motion of the crank into linear motion of the slider. In order for the crank to rotate fully the condition L&gt; R+E must be
+    satisfied where R is the crank length,L is the length of the link connecting crank and slider and E is the offset of slider. A slider crank is a RRRP type of mechanism i.e.
+    It has three revolute joints and 1 prismatic joint. The total distance covered by the slider between its two extreme positions is called the path length. Kinematic inversion 
+    of slider crank mechanisms produce ordinary a whitework quick return mechanism.
+    </p><br>
+    <p>
+    The motion of the mechanism can be viewed in the following gif animation:</p>
+	<br>
+    <p>
+    <img alt="slider ani" src="exp-images/Slidercrank_animation.gif" width="300" height="168"></p>
+ 	</ul>
+ 	</dd>
+                        
+                    </div>
+                </section> 
+
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/simulation.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Simulator
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-4-content">
+                        <div class="divContent">
+                             <p> <dd>
+ <ul><span style="color:#525252">
+  <li>
+   Insert the crank,slider &amp; offset length in the three text boxes.make sure that slider length is larger than the sum of crank length &amp; offset.
+  </li>
+  <li>
+   Click the simulation button to run the simulation.
+  </li>
+  <li>
+   The left top figure in the output shows the graphical simulation of the slider crank mechanism.
+  </li>
+  <li>
+  The other three panes show the variation of both the angles with respect to time and the variation of theta2 vs theta1 respectively.
+  </li>
+  </span></ul>
+
+ </p><br>
+
+  <p><span style="color:#696969">
+  Below is a picture of the GUI as it would appear on the users screen :
+  </span></p>
+
+<br>
+ <p><a href="slider.jpg"><img alt="slider screenshot" src="exp-images/slider.jpg" width="100%"></a></p>
+<p></p>
+<br><br>
+<p><span style="color:#696969">
+Here is the link to the pdf file:</span></p>
+<p><a href="downloads/Slidercrank.pdf">Slidercrank.pdf</a></p>
+<br>
+<p><span style="color:#696969">Here is the link to the MATLAB file :</span></p>
+<p><a href="downloads/slider_crank_1_08_09.zip">Slider_crank.zip</a></p>
+</ul></dd>
+</p>
+</div>
+</div>
+</section>
+
+            </div>
+        </article>
+    </div>
+</body>
+</html>

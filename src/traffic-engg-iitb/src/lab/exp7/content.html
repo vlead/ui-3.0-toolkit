@@ -1,0 +1,685 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Traffic Engineering Laboratory</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+               Parking Analysis
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id="experiment-article-section-1-heading">
+                        Aim
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-1-content">
+                        <div class="divContent">
+                           
+                            <p>&nbsp;</p>
+
+                            <p class="MsoNormal" style=
+                            "line-height: 150%; text-align: right;"><a href=
+                            "http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
+                            Back To Experiment List</span></a></p>
+
+                            
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Pre Test
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id="experiment-article-section-2-content">
+
+                    <div class="divContent">
+                           
+                            <p>&nbsp;</p>
+
+                            <p class="MsoNormal" style=
+                            "line-height: 150%; text-align: right;"><a href=
+                            "http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
+                            Back To Experiment List</span></a></p>
+
+                            
+                        </div>
+                        
+                    </div>
+                </section>
+
+                
+
+    <section id="experiment-article-section-3">
+        <div class="icon" id="experiment-article-section-3-icon">
+        <!-- Enclose the icon image of your lab. -->
+        <img src="../images/objective.jpg"></div>
+
+        <div class="heading" id="experiment-article-section-3-heading">Theory</div>
+
+            <div class="content" id="experiment-article-section-3-content">
+                
+            <div class="divContent">
+                         
+            <p class="MsoNormal" style="line-height: 150%; text-align: right;">
+                
+            <a href="http://coep.vlab.co.in/?sub=33&amp;brch=91">
+
+            <span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
+                            Back To Experiment List
+            </span></a></p>
+
+            <p align="justify">
+                
+               Parking is one of the major problems that is created by the increasing road traffic. It is an impact of transport development. The availability of less space in urban areas has increased the demand for parking space especially in areas like Central business district. This affects the mode choice also. This has a great economical impact. </p>
+
+
+               <p align="justify">
+               Before taking any measures for the betterment of conditions, data regarding availability of parking space, extent of its usage and parking demand is essential. It is also required to estimate the parking fares also. Parking surveys are intended to provide all these information. Since the duration of parking varies with different vehicles, several statistics are used to access the parking need.
+            </p> <br>
+
+            <h4>Parking statistics</h4> <br>
+
+            <p align="justify"><b>Parking accumulation:</b> It is defined as the number of vehicles parked at a given instant of time. Normally this is expressed by accumulation curve. Accumulation curve is the graph obtained by plotting the number of bays occupied with respect to time.</p>
+
+            <p align="justify"><b>Parking volume:</b> Parking volume is the total number of vehicles parked at a given duration of time. This does not account for repetition of vehicles. The actual volume of vehicles entered in the area is recorded.</p>
+
+            <p align="justify"><b>Parking load:</b> Parking load gives the area under the accumulation curve. It can also be obtained by simply multiplying the number of vehicles occupying the parking area at each time interval with the time interval. It is expressed as vehicle hours.</p>
+
+            <p align="justify"><b>Average parking duration:</b> It is the ratio of total vehicle hours to the number of vehicles parked.</p> <br>
+
+            <img src="images/img1.png" style="width:295px; height:41px; margin-left:20%;"> <br>
+
+            <p align="justify"><b>Parking turnover:</b> It is the ratio of number of vehicles parked in a duration to the number of parking bays available. This can be expressed as number of vehicles per bay per time duration.</p> <br>
+
+            <img src="images/img2.png" style="width:348px; height:46px; margin-left:20%;"> <br>
+
+            <p align="justify"><b>Parking index:</b> Parking index is also called occupancy or efficiency. It is defined as the ratio of number of bays occupied in a time duration to the total space available. It gives an aggregate measure of how effectively the parking space is utilized. Parking index can be found out as follows.</p><br>
+
+            <img src="images/img3.png" style="width:336px; height:48px; margin-left:20%;"> <br>
+
+            <p align="justify">To illustrate the various measures, consider a small example in figure 1, which shows the duration for which each of the bays are occupied(shaded portion). Now the accumulation graph can be plotted by simply noting the number of bays occupied at time interval of 15, 30, 45 etc. minutes is shown in the figure.</p> <br>
+
+            <img src="images/img4.png" style="width:374px; height:218px; margin-left:20%;"> <br>
+
+             The various measures are calculated as shown below: <br>
+             Parking volume= 5 vehicles.</p>
+
+             <img src="images/img6.png" style="width:649px; height:240px;"> <br>
+
+            <p align="justify"><b>License plate method of survey:</b> <br> This results in the most accurate and realistic data. In this case of survey, every parking stall is monitored at a continuous interval of 15 minutes or so and the license plate number is noted down. This will give the data regarding the duration for which a particular vehicle was using the parking bay. This will help in calculating the fare because fare is estimated based on the duration for which the vehicle was parked. If the time interval is shorter, then there are less chances of missing short-term parkers. But this method is very labor intensive.</p>
+            
+            </div></div>
+
+    </section>
+
+
+
+     <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/manual.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-5-content">
+                        <div class="divContent">
+
+                        <p align="justify">
+               The parking survey data collected from a parking lot by license plate method is as shown in the table 3 below. Find the average occupancy, average turnover, parking load, parking capacity and efficiency of the parking lot.</p> <br>
+
+               <img src="images/img7.png" style="width:521px; height:334px; margin-left:10%;"> <br>
+
+             <br>
+
+            <img src="images/img8.png" style="width:900px; height:436px;"> <br>
+
+            <p>Columns 1 to 5 are the input data. The parking status in every bay is coded first. If a vehicle occupies that bay for that time interval, then it has a code 1. This is shown in columns 6, 7, 8 and 9 of the table corresponding to the time intervals 15, 30, 45 and 60 seconds.</p> <br>
+
+            <ol>
+                <li>Turn over is computed as the number of vehicles present in that bay for that particular hour. For the first bay, it is counted as 3. Similarly, for the second bay, one vehicle is present throughout that hour and hence turnout is 1 itself. This is being tabulated in column 10 of the table. Average turn over = <br>
+                <img src="images/img9.png" style="width:256px; height:42px; margin-left:10%;"> <br>
+                </li> 
+
+                <li>Accumulation for a time interval is the total of number of vehicles in the bays 1 to 12 for that time interval. Accumulation for first time interval of 15 minutes = 1+1+1+1+1+0+0+1+1+1+1+1 = 10</li>
+
+                <li>Parking volume = Sum of the turn over in all the bays = 27 vehicles</li>
+
+                <li>Average duration is the average time for which the parking lot was used by the vehicles. It can be calculated as sum of the accumulation for each time interval x time interval divided by the parking <br>
+                <img src="images/img10.png" style="width:461px; height:45px;"> <br>
+                </li>
+
+                <img src="images/img11.png" style="width:797px; height:355px;"> <br>
+               
+            </ol>
+ 
+                        </div>
+
+            </div>
+
+
+        </section>
+
+    <section id="experiment-article-section-10">
+    
+        <div class="icon" id="experiment-article-section-10-icon">
+                    <!-- Enclose the icon image of your lab. -->
+        <img src="../images/objective.jpg"></div>
+
+            <div class="heading" id="experiment-article-section-10-heading">Contact</div>
+
+                <div class="content" id="experiment-article-section-10-content">
+                        
+                    <div class="divContent">
+                    
+                        <p class="MsoNormal" style="line-height: 150%;">&nbsp;</p>
+
+                        <p class="MsoNormal" style="line-height: 150%;">
+                            
+                        <span lang="EN-IN" style='font-size: 12pt; font-family: "Verdana","sans-serif";'><br></span>
+                        <span lang="EN-IN" style='font-size: 12pt; font-family: "Verdana","sans-serif";'><br></span></p>
+
+                        <p class="MsoNormal" style="line-height: 150%; text-align: right;">
+                        <a href="http://coep.vlab.co.in/?sub=33&amp;brch=91">
+                        <span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
+                            Back To Experiment List</span></a></p>
+
+                            <p align="center">Traffic Engineering Laboratory</p>
+                            <p align="center">Indian Institute of Technology Bombay</p> <br><br>
+                            <p align="right">Principal Investigator: Dr. Tom V Mathew, IIT Bombay</p>
+                            <hr>
+                            <p align="justify">The Traffic Engineering Laboratory at IIT Bombay is a unique interdisciplinary program in the country that provide remote-access to Labs in Traffic Engineering. These experiments would cater to students at the undergraduate level, post graduate level as well as to research scholars and  enthuse students to conduct experiments by arousing their curiosity. This would help them in learning basic and advanced concepts through remote experimentation. Students can avail the various tools for learning, including simulation and self evaluation.</p>
+                            <br>
+                            <p align="center">Contact Us</p>
+
+                            
+                                <p>Principal Investigator</p>
+                                <p>Dr. Tom V Mathew</p>
+                                <p>Associate Professor</p>
+                                <p>Department of Civil Engineering</p>
+                                <p>Indian Institute of Technology Bombay</p>
+                                <p>Powai, Mumbai - 400076, India</p>
+                                <p>Tel:  +91-22-2576 7349</p>
+                                <p>Fax:  +91-22-2576 7302</p>
+                                <p>Email: tvm@civil.iitb.ac.in, tvmathew@gmail.com</p>
+                                <br> <br>
+
+                            
+                                <p>Team:</p>
+                                <p>Ashish Cheriyan</p>
+                                <p>Research Assistant</p>
+                                <p>Email : cherian_ashish@yahoo.com</p>
+                                <p></p> <p></p> <br>
+
+                                <p>Chitra Sharma</p>
+                                <p>Research Assistant</p>
+                                <p>Email : chitsharma86@gmail.com</p>
+                    </div></div></section>
+
+
+
+        <!-- <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                   <!-- <img src="../images/simulation.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Simulator
+                    </div>
+
+                    <div class="content" id="experiment-article-section-4-content">
+                    
+                    <div class="divContent">
+                            
+                    <p><a href="http://coepvlab.ac.in:8080/COEP/Vlabs/Simulators/ElectricalLab/SensorLab/Rtd/index.html"
+                            target="_blank">Click here for Simulator</a></p>
+                        </div>
+                    </div>
+        </section>
+
+                
+
+
+                  
+             <!--   <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                  <!--  <img src="../images/quizzes.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-7-heading">
+                        Review Questions
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-7-content">
+                        <div class="divContent">
+                            <h2 style="color: red;"><strong style=
+                            "text-decoration: underline"><span style=
+                            "font-family: arial,helvetica,sans-serif; color: rgb(255, 0, 0);">
+                            <span style="font-size: large;">Review
+                            Questions</span></span></strong></h2>
+
+                            <h2>&nbsp;</h2>
+
+                            <p class="MsoNormal" style=
+                            "line-height: 150%; text-align: right;"><a href=
+                            "http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
+                            Back To Experiment List</span></a></p>
+
+                            <p>&nbsp;</p><!--[if gte mso 9]&gt;&lt;xml&gt;
+font-size:11.0pt;
+font-family:"Calibri","sans-serif";
+mso-ascii-font-family:Calibri;
+mso-ascii-theme-font:minor-latin;
+mso-hansi-font-family:Calibri;
+mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;}
+&lt;/style&gt;
+&lt;![endif]-->
+
+                        <!--    <h1 style=
+                            "margin-left: 0.75in; text-align: justify; text-indent: -0.25in; line-height: 150%; page-break-after: auto;">
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif"; color: black; font-weight: normal;'>
+                            <span style="">1.<span style=
+                            'font: 7pt "Times New Roman";'>&nbsp;&nbsp;&nbsp;</span></span></span>
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif"; color: black; font-weight: normal;'>
+                            What are different sources of errors in RTD
+                            measurement?</span></h1>
+
+                            <p>&nbsp;</p>
+
+                            <h1 style=
+                            "margin-left: 0.75in; text-align: justify; text-indent: -0.25in; line-height: 150%; page-break-after: auto;">
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif"; color: black; font-weight: normal;'>
+                            <span style="">2.<span style=
+                            'font: 7pt "Times New Roman";'>&nbsp;&nbsp;&nbsp;</span></span></span>
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif"; color: black; font-weight: normal;'>
+                            What is lead wire compensation?</span></h1>
+
+                            <p>&nbsp;</p>
+
+                            
+                            <h1>&nbsp;</h1>
+
+                            <p style="text-align: center;">&nbsp;</p>
+
+                            <p style="text-align: center;">&nbsp;</p>
+
+                            
+                        </div>
+                    </div>
+                </section>
+
+              <!--  <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                 <!--   <img src="../images/quizzes.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        Reference
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-8-content">
+                        <div class="divContent">
+                            <p><!--[if gte mso 9]&gt;&lt;xml&gt;
+&lt;w:WordDocument&gt;
+&lt;w:View&gt;Normal&lt;/w:View&gt;
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-style-noshow:yes;
+mso-style-priority:99;
+mso-style-qformat:yes;
+mso-style-parent:"";
+mso-padding-alt:0in 5.4pt 0in 5.4pt;
+mso-para-margin:0in;
+mso-para-margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:"Times New Roman","serif";}
+&lt;/style&gt;
+&lt;![endif]-->
+
+                          <!--  <p class="PreformattedText"><b style=""><span lang=
+                            "EN-IN" style=
+                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
+                            Books</span></b><span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>:</span></p>
+
+                            <p class="PreformattedText">&nbsp;</p>
+
+                            <p class="PreformattedText">&nbsp;</p>
+                            <!--[if gte mso 9]&gt;&lt;xml&gt;
+font-family:"Times New Roman","serif";}
+&lt;/style&gt;
+&lt;![endif]-->
+
+                            <p class="MsoNormal">
+                            <!--[if gte mso 9]&gt;&lt;xml&gt;
+&lt;w:WordDocument&gt;
+mso-para-margin-right:0in;
+mso-para-margin-bottom:10.0pt;
+mso-para-margin-left:0in;
+line-height:115%;
+mso-pagination:widow-orphan;
+font-size:11.0pt;
+font-family:"Calibri","sans-serif";
+mso-ascii-font-family:Calibri;
+mso-ascii-theme-font:minor-latin;
+mso-hansi-font-family:Calibri;
+mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;}
+&lt;/style&gt;
+&lt;![endif]--></p>
+
+                          <!--  <p class="MsoNormal" style=
+                            "text-indent: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            [1] D. Patranabis, “<i>Sensors and
+                            Transducers</i>”</span></p>
+
+                            <p class="MsoNormal" style="line-height: normal;">
+                            <span style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <p class="MsoNormal" style=
+                            "margin-left: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            [2] A. K. Shawney, “<i>A course in Mechanical
+                            Measurements and Instrumentation</i>”</span></p>
+
+                            <p class="MsoNormal" style="line-height: normal;">
+                            <span style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <p class="MsoNormal" style=
+                            "margin-left: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            [3] Bela G. Liptak, “<i>Instrument Engineers</i>'
+                            <i>Handbook: Process Measurement and
+                            Analysis</i>”</span></p>
+
+                            <p class="MsoNormal" style="line-height: normal;">
+                            <span style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <p class="MsoNormal" style=
+                            "text-indent: 0.25in; line-height: normal;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
+                            [4] Doeblin, “<i>Measurement Systems Applications
+                            and Design</i>”</span></p>
+
+                            <p class="MsoNormal">&nbsp;</p>
+
+                            <p>&nbsp;</p>
+
+               
+
+                            <h3>&nbsp;</h3>
+
+         
+
+                          <!--  <h3>&nbsp;</h3>
+
+                            <h3>&nbsp;</h3>
+
+                            <h3 style="font-weight: bold"><span lang="EN-IN"
+                            style=
+                            'font-size: 12pt; font-family: "Verdana","sans-serif";'>
+                            Useful links:</span></h3>
+
+                            <h2><span style=
+                            "color: rgb(51, 102, 255);">&nbsp;</span></h2>
+                            <meta content="text/html; charset=utf-8"
+                            http-equiv="Content-Type">
+                            <meta content="Word.Document" name="ProgId">
+                            <meta content="Microsoft Word 12" name="Generator">
+                            <meta content="Microsoft Word 12" name=
+                            "Originator">
+                            <link href=
+                            "file:///C:%5CUsers%5Cinstru%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_filelist.xml"
+                            rel="File-List">
+                            <link href=
+                            "file:///C:%5CUsers%5Cinstru%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_themedata.thmx"
+                            rel="themeData">
+                            <link href=
+                            "file:///C:%5CUsers%5Cinstru%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_colorschememapping.xml"
+                            rel="colorSchemeMapping"><span style=
+                            "color: rgb(51, 102, 255);">
+        <!--</span><style type="text/css">
+</style><span style="color: rgb(51, 102, 255);">
+    
+
+</span> 
+
+<span style="background: none repeat scroll 0% 0% yellow;"><span style="color: rgb(51, 102, 255);">
+                            <br></span></span>
+
+                            <h2><span style="color: rgb(51, 102, 255);">
+                            <!--[if !supportLists]--></span></h2> 
+
+                            <p>&nbsp;</p>
+
+                           <!-- <h2 style=
+                            "margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;">
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif"; color: windowtext;'>
+                            <span style=
+                            "">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+            
+
+                            <!-- <h2 style=
+                            "margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;">
+                            <span style=""><span style=
+                            "">&nbsp;</span></span><span style=
+                            "color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            1<span style=
+                            "background-color: rgb(255, 255, 255);">.<span style='font: 7pt "Times New Roman";'>&nbsp;</span></span><span style='font: 7pt "Times New Roman";'>&nbsp;&nbsp;&nbsp;</span></span>
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            <a href=
+                            "http://www.sensortecinc.com/docs/technical_resources/RTD_Theory.pdf">
+                            <span style=
+                            "color: rgb(0, 0, 0);">http://www.sensortecinc.com/docs/technical_resources/RTD_Theory.pdf</span></a></span>
+                            <span style="color: rgb(0, 0, 0);"><span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            </span><span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>&nbsp;</span></span></h2>
+
+                            <p style="text-indent: 2.25pt;"><span style=
+                            "color: rgb(0, 0, 0);">&nbsp;</span></p>
+
+                            <p style="text-indent: 2.25pt;"><span style=
+                            "color: rgb(0, 0, 0);">&nbsp;</span></p>
+
+                            <h2 style=
+                            "margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;">
+                            <span style=
+                            "color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            2.<span style=
+                            'font: 7pt "Times New Roman";'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            <a href=
+                            "http://www.tempsensor.net/index.php?name=Sections&amp;req=listarticle&amp;secid=17">
+                            <span style=
+                            "color: rgb(0, 0, 0);">http://www.tempsensor.net/index.php?name=Sections&amp;req=listarticle&amp;secid=17</span></a></span></h2>
+
+                            <p><span style=
+                            "color: rgb(0, 0, 0);">&nbsp;</span></p>
+
+                            <p style="text-indent: 2.25pt;"><span style=
+                            "color: rgb(0, 0, 0);">&nbsp;</span></p>
+
+                            <h2 style=
+                            "margin: 10pt 0in 0.25in 0.5in; text-indent: -0.25in; line-height: 150%;">
+                            <span style=
+                            "color: rgb(0, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: rgb(51, 51, 0);">&nbsp;</span>
+                            <span style="color: rgb(0, 0, 0);"><span style=
+                            "background-color: rgb(255, 255, 255);">3.</span></span>
+                            <b style=""><a href=
+                            "http://www.omega.com/toc_asp/frameset.html?book=Temperature&amp;file=RTD_Gen_Specs_Ref"
+                            target="_blank"><span style=
+                            "color: rgb(0, 0, 0);"><small>http://www.omega.com/toc_asp/frameset.html?book=Temperature&amp;</small></span></a></b><b style=""><a href="http://www.omega.com/toc_asp/frameset.html?book=Temperature&amp;file=RTD_Gen_Specs_Ref"
+                            target="_blank"><span style=
+                            "color: rgb(0, 0, 0);"><small>file=RTD_Gen_Specs_Ref</small></span></a></b></h2>
+
+                            <p><span style=
+                            "color: rgb(0, 0, 0);">&nbsp;</span></p>
+
+                            <p>&nbsp;</p>
+
+                            <p>&nbsp;</p>
+
+                            <p>&nbsp;</p>
+
+                            <p>&nbsp;</p>
+
+                            <p>&nbsp;</p>
+
+                            <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <h2 style=
+                            "margin: 10pt 0in 0.25in 0.5in; text-indent: -0.25in; line-height: 150%;">
+                            <a href=
+                            "%C2%A0%20http:/en.wikipedia.org/wiki/Temperature_measurement">
+                            </a></h2>
+
+                        <!-- <p>&nbsp;</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                  <!--  <img src="../images/quizzes.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-9-heading">
+                        Photo Gallery
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-9-content">
+                        <p><b>Q1.</b> Time taken for one complete oscillation
+                        is called Time Period of the oscillator.<br>
+                        <input id="q1" name="q1" type="radio" value="1">
+                        True<br>
+                        <input id="q1" name="q1" type="radio" value="0">
+                        False<br>
+                        <br>
+                        <b>Q2.</b> Time period of the oscillator is constant
+                        for given values of mass, length and initial
+                        conditions.<br>
+                        <input id="q2" name="q2" type="radio" value="1">
+                        True<br></p>
+                    </div>
+                </section> -->
+            </div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>
